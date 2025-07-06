@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science Engineering student at SRM Institute of Science and Technology, specializing in Cyber Security. My engineering philosophy is centered on the belief that true learning extends beyond the classroom. I see college as a crucial environment for understanding real-world complexities, from navigating diverse perspectives to discovering personal limits and strengths. This has fostered in me a practical, hands-on approach to problem-solving.
+                <br><br>
+                My goal is to apply this real-world understanding to the field of technology, building solutions that are not only technically sound but also resilient and secure. A personal project that embodies this passion is the conceptual development of a variable displacement engine. The design aims to allow a user to dynamically switch between a high-power mode and a high-efficiency mode by adjusting the engine's cubic capacity. This system, coupled with a software-controlled RPM limiter, would offer a practical solution for balancing performance and fuel economy based on real-time needs. This endeavor highlights my fascination with the intersection of mechanical systems and software control.
+                <br><br>
+                Outside of my academic and engineering pursuits, I have a wide range of interests including financial trading, strategic gaming, manga, biking, and photography. These activities have sharpened my analytical skills, my appreciation for design, and my perseverance in the face of challenges.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects-container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>AutoCat: A Hashcat Frontend</h3>
+                <p>AutoCat is a command-line interface (CLI) tool designed to streamline the use of Hashcat, a powerful password recovery and cracking utility. It provides an interactive and user-friendly frontend that simplifies the process of configuring and launching Hashcat attacks. By guiding the user through the selection of hash types, attack modes, and compute devices, AutoCat eliminates the need to memorize complex command-line flags. This project demonstrates a practical application of shell scripting to create a more accessible and efficient workflow for a widely used cybersecurity tool.</p>
+                <a href="https://github.com/APRO-75/autocat">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Carbon Footprint Calculator</h3>
+                <p>The Carbon Footprint Calculator is a full-stack web application designed to raise awareness about individual environmental impact. It allows users to calculate their carbon footprint by inputting data related to their daily activities, including transportation, food consumption, and energy usage. The application is built with a React frontend that provides a user-friendly interface for data entry and visualization. The backend is powered by Flask and Python, which processes the data, calculates the carbon footprint, and stores it in a MongoDB database for historical tracking. The results are presented in a clear and intuitive manner, with a pie chart that breaks down the carbon footprint by category and provides actionable tips for reducing it. This project demonstrates proficiency in full-stack development, including frontend and backend technologies, database management, and data visualization.</p>
+                <a href="https://github.com/APRO-75/carbon-footprint-app">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Real-Time Sign Language Recognition</h3>
+                <p>This project is a real-time sign language recognition system that leverages computer vision and deep learning to translate sign language gestures into text. The system uses the MediaPipe library to perform real-time hand and body landmark detection from a webcam feed. The extracted landmark data is then fed into a Long Short-Term Memory (LSTM) neural network, which is trained to recognize and classify different sign language gestures. This project demonstrates a practical application of machine learning for accessibility, with the potential to bridge the communication gap between the deaf and hearing communities. The use of an LSTM network is particularly well-suited for this task, as it can effectively model the temporal sequences of sign language gestures.</p>
+                <a href="https://github.com/APRO-75/sign-language-translator-ai">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Gamified Samvidhan: An Interactive Learning Platform</h3>
+                <p>Gamified Samvidhan is a full-stack web application that provides a unique and engaging platform for learning about the Indian Constitution. The project transforms the process of studying a complex legal document into an interactive and enjoyable experience. It features a variety of gamified elements, including daily quizzes, trivia games, and a multiplayer mode, to motivate users and enhance their understanding of the constitution. The platform also includes user authentication, progress tracking, and a rewards system to encourage continued learning. The frontend is built with React and Tailwind CSS, while the backend is powered by Node.js, Express, and MongoDB. This project showcases the ability to design and develop a comprehensive e-learning platform with a focus on user engagement and interactive learning.</p>
+                <a href="https://github.com/APRO-75/gamified_samvidhan">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <h2>Skills</h2>
+            <div class="skills-category">
+                <h3>Technical Skills</h3>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>Bash</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Prompting</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Non-Technical Skills</h3>
+                <ul class="skills-list">
+                    <li>Problem Solving</li>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at <a href="mailto:ap75ro@gmail.com">ap75ro@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
